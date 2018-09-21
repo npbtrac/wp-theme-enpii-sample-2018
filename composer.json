@@ -1,0 +1,24 @@
+{
+  "name": "enpii/enpii-sample-2018",
+  "description": "Sample theme in 2018 from Enpii, need Enpii Base to work.",
+  "type": "wordpress-theme",
+  "authors": [
+    {
+      "name": "Trac Nguyen",
+      "email": "npbtrac@yahoo.com"
+    },
+    {
+      "name": "Enpii",
+      "email": "contact@enpii.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Enpii\\Wp\\EnpiiSample2018\\": "src"
+    }
+  },
+  "minimum-stability": "stable"
+}
